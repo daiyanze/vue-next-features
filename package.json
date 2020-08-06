@@ -1,0 +1,19 @@
+{
+  "name": "vue-next-features",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/daiyanze/vue-next-features.git",
+  "author": "Yanze Dai <ginoalex8964@yahoo.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite": "^1.0.0-rc.4",
+    "vue": "^3.0.0-rc.5"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.0.0-rc.5"
+  }
+}
