@@ -3,13 +3,23 @@
 
 A demo for the Vue 3 new features
 
-# contents
+# Demo
 
-- composition api
-- multiple root elements
-- suspense
-- teleport
-- transition
-- filters
-- multiple v-models
+Checkout the demo app
+[https://daiyanze.com/vue-next-features/dist/](demo)
 
+# Contents
+
+1. composition api
+2. advanced reactivity api
+3. transition
+4. suspense
+5. teleport
+6. function filters
+7. multiple root elements
+8. multiple v-models
+
+# Blog Article
+
+Here's the article about Vue 3 new features
+[https://pitayan.com/posts/vue-new-features/](https://pitayan.com/posts/vue-new-features/?ref=github)
