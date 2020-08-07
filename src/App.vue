@@ -1,5 +1,6 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
+  <h1>Vue 3 new Features</h1>
+  <br>
 
   <h2>01. Composition API</h2>
   <CompositionAPI />
