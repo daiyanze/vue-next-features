@@ -5,8 +5,7 @@ A demo for the Vue 3 new features
 
 # Demo
 
-Checkout the demo app
-[https://daiyanze.com/vue-next-features/dist/](demo)
+[link](https://daiyanze.com/vue-next-features/dist/)
 
 # Contents
 

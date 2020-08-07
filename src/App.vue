@@ -11,7 +11,7 @@
   <h2>03. Transition</h2>
   <TransitionComponent />
 
-  <h2>04. Functional Filter</h2>
+  <h2>04. Function Filter</h2>
   <Filters />
 
   <h2>05. Suspense Component</h2>
