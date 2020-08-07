@@ -3,11 +3,11 @@
 
 A demo for the Vue 3 new features
 
-# Demo
+## Demo
 
 [link](https://daiyanze.com/vue-next-features/dist/)
 
-# Contents
+## Contents
 
 1. composition api
 2. advanced reactivity api
@@ -18,7 +18,7 @@ A demo for the Vue 3 new features
 7. multiple root elements
 8. multiple v-models
 
-# Blog Article
+## Blog Article
 
 Here's the article about Vue 3 new features
 [https://pitayan.com/posts/vue-new-features/](https://pitayan.com/posts/vue-new-features/?ref=github)
