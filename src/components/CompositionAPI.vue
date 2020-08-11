@@ -1,5 +1,5 @@
 <template>
-  <button ref="buttonRef" @click="count++">count: {{ count }} | result: {{ result }} | multiplier: {{ multiplier }}</button>
+  <button ref="buttonRef" @click="count++">count: {{ count }} | result: {{ result }} | multiplier: {{ multiplier.value }}</button>
 </template>
 
 <script>
@@ -26,7 +26,7 @@ import {
   // onRenderTriggered,
   // onUnmounted,
   // onActivated,
-  // onDeactivated,
+  // onDeactivated
 } from 'vue'
 
 export default {
@@ -39,21 +39,22 @@ export default {
     console.log('state isReactive: ', isReactive(state))
 
     // set a readonly value that throws error assigning new value after being declared
-    let multiplier = readonly(2)
     // readonly needs an Object as its argument
-    // multiplier is a value, so it is false.
-    multiplier = 3
-    console.log('multiplier isReadOnly: ', isReadonly(multiplier))
+    let multiplier = readonly({
+      value: 2
+    })
+    multiplier.value = 3 // throws error
+    console.log('multiplier isReadOnly: ', isReadonly(multiplier)) // true
 
     // set computed property (a readonly ref)
     const result = computed(() => {
-      return state.count * multiplier
+      return state.count * multiplier.value
     })
-    console.log('result isReadonly: ', isReadonly(result))
+    console.log('result isReadonly: ', isReadonly(result)) // true
 
     // set target element node as ref
     const buttonRef = ref(null)
-    console.log('buttonRef isRef: ', isRef(buttonRef))
+    console.log('buttonRef isRef: ', isRef(buttonRef)) // true
 
     // beforeMount hook
     onBeforeMount(() => {
